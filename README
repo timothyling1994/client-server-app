@@ -1,0 +1,12 @@
+README
+
+
+Please compile the files separately:
+
+	g++ server.cpp -o server
+	./server t 1153 output.txt far_side.jpg
+
+Then when the server is listening, compile the client.cpp
+
+	g++ client.cpp -o client
+	./client t 127.0.0.1 1153 clientoutput.txt capture.jpg
